@@ -1,0 +1,25 @@
+{
+  "name": "qx-vue-cli",
+  "version": "1.0.3",
+  "description": "一个前端模板快速创建的脚手架",
+  "main": "./bin/start.js",
+  "bin": {
+    "qx-vue-cli": "./bin/start.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhansheng",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.2",
+    "ora": "^5.3.0",
+    "commander": "^9.2.0",
+    "fs-extra": "^10.1.0",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+  }
+}
