@@ -53,3 +53,13 @@ log-symbols
 用于在打印输出的内容中加入icon更友好，使用文档
 rimraf
 在node环境下使用unix 命令rm -rf来删除文件
+
+发布到npm 的步骤
+1、npm login 
+  输入 npm 官网的账号和密码
+
+2、npm publish 
+  进行发布
+
+3、npm install -g zs-vue-cli (更新到最新版本也一样用这个命令)
+  全局安装脚手架命令行工具

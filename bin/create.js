@@ -4,6 +4,7 @@ const fs = require('fs-extra')
 const inquirer = require('inquirer')
 const Generator = require('./Generator')
 const ora = require('ora')
+const chalk = require('chalk')
 
 module.exports = async function (name, options) {
   // 获取当前目录
@@ -39,7 +40,7 @@ module.exports = async function (name, options) {
         return
       } else if (action === 'overwrite') {
         // 移除已存在的目录
-        console.log(`\r\nRemoving...`)
+        console.log(chalk.blue(`\r\nRemoving...`))
         await fs.remove(targetDir)
       }
     }

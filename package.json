@@ -1,10 +1,10 @@
 {
-  "name": "qx-vue-cli",
-  "version": "1.0.3",
+  "name": "zs-vue-cli",
+  "version": "1.0.9",
   "description": "一个前端模板快速创建的脚手架",
   "main": "./bin/start.js",
   "bin": {
-    "qx-vue-cli": "./bin/start.js"
+    "zs-vue-cli": "./bin/start.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,13 +13,12 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.1",
+    "chalk": "^4.1.2",
+    "commander": "^9.2.0",
     "download-git-repo": "^3.0.2",
+    "fs-extra": "^10.1.0",
     "inquirer": "^8.2.2",
     "ora": "^5.3.0",
-    "commander": "^9.2.0",
-    "fs-extra": "^10.1.0",
     "util": "^0.12.4"
-  },
-  "devDependencies": {
   }
 }

@@ -30,13 +30,13 @@ class Generator {
     clearTimeout(this.timer)
 
   }
+  
   /*
   获取用户选择的模版
     1.远程拉取模版数据
     2.用户选择所要下载的模版名称
     3.return用户选择的名称
   */
-
   async getRepo() {
     const repoList = await wrapLoading(getRepoList, '获取模版列表中...')
   	// 空则终止执行
